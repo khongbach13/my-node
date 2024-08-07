@@ -5,7 +5,7 @@ pipeline {
         DOCKER_CREDENTIALS_ID = 'dockerhub'
         DOCKER_IMAGE_NAME = 'my-docker-app'
         DOCKER_TAG = 'latest'
-        DOCKER_REGISTRY = 'docker.io'
+        DOCKER_REGISTRY = 'https://hub.docker.com/repository/docker/luuphuong13/'
     }
 
     stages {
