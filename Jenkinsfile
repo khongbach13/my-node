@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_CREDENTIALS_ID = 'dockerhub'
+        DOCKER_CREDENTIALS_ID = 'dockerhubv1'
         DOCKER_IMAGE_NAME = 'my-docker-app'
         DOCKER_TAG = 'latest'
-        DOCKER_REGISTRY = 'https://hub.docker.com/repository/docker/luuphuong13/'
+        DOCKER_REGISTRY = 'docker.io'
     }
 
     stages {
